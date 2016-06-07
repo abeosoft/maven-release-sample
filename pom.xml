@@ -10,8 +10,8 @@
 
 	<scm>
 		<url>https://github.com/abeosoft/maven-release-sample.git</url>
-		<connection>scm:git@github.com:abeosoft/maven-release-sample.git</connection>
-		<developerConnection>scm:git@github.com:abeosoft/maven-release-sample.git</developerConnection>
+		<connection>scm:git:git@github.com:abeosoft/maven-release-sample.git</connection>
+		<developerConnection>scm:git:git@github.com:abeosoft/maven-release-sample.git</developerConnection>
 	</scm>
 
 	<distributionManagement>
@@ -32,7 +32,6 @@
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<releaseProfiles>release</releaseProfiles>
 				</configuration>
 			</plugin>
 		</plugins>

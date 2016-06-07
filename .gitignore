@@ -1,0 +1,95 @@
+###################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+############
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.war
+*.jar
+*.zip
+##########################################
+# JAR files to be managed by Nexus/Maven #
+##########################################
+*.jar
+################
+# Editor Saves #
+################
+*.bak
+*.tmp
+*.*~
+######################
+# Logs and databases #
+######################
+*.log
+*.lock
+*.sqlite
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.metadata
+.classpath
+.project
+.mylyn
+.plugins
+.idea
+#################
+#  Directories  #
+#################
+.metadata/
+.mylyn/
+.plugins/
+.settings/
+apidocs/
+bin/
+classes/
+copyright/
+inspectionProfiles/
+javadoc-bundle-options/
+libraries/
+maven-archiver/
+scopes/
+surefire/
+target/
+################
+#  IDE files   #
+################
+.classpath
+.idea
+.metadata
+.mylyn
+.plugins
+.project
+ant.xml
+Client.iml
+compiler.xml
+encodings.xml
+findbugs-idea.xml
+misc.xml
+modules.xml
+workspace.xml
+uiDesigner.xml
+vcs.xml
+*.iml
+
